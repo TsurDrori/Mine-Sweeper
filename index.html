@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tsur's MineSweeper</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body onload="initGame(4, 2)" >
+    <div class="background"> </div>
+    <h1>MineSweeper</h1>
+
+    <h2 class="lives">Lives: <span> </span> </h2>
+    <button class="smiley" onclick="toggleGame()">🙂</button>
+    <button onclick="initGame(4, 2)">Beginer</button>
+    <button onclick="initGame(8, 12)">Intermediate</button>
+    <button onclick="initGame(12, 30)">Expert</button>
+    <h2 class="time"> Time: <span>0.00</span></h2>
+
+    <div class="tableContainer">
+        <table border="3" cellpadding="20">
+            <tbody class="table">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+
+</body>
+
+</html>
