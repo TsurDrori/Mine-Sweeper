@@ -150,12 +150,12 @@ function leftMouseClick(clickedElCell, clickedCell) {
     } else if (clickedCell.minesAroundCount) {
         clickedCell.isOpened = true;
         clickedElCell.innerHTML += clickedCell.minesAroundCount;
-        clickedElCell.style.backgroundColor = 'rgb(214, 203, 159)';
+        clickedElCell.style.backgroundColor = 'rgb(173, 164, 128)';
         gGame.openedCount++
     } else {
         clickedCell.isOpened = true;
         gGame.openedCount++
-        clickedElCell.style.backgroundColor = 'rgb(214, 203, 159)';
+        clickedElCell.style.backgroundColor = 'rgb(173, 164, 128)';
         openNegs(clickedElCell);
     }
     checkVictory();

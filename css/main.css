@@ -1,7 +1,7 @@
 body {
     /* text-align: center; */
     background-color: rgb(175, 163, 110);
-    background-image: url('/1.jpg') ;
+    background-image: url('../1.jpg') ;
 
   height: 100%;
 
@@ -33,7 +33,7 @@ h2 {
 
 button {
     display: inline;
-    background-color: rgb(68, 32, 55);
+    background-color: rgb(102, 47, 47);
     margin-left: 10px;
     width: 200px;
     height: 70px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(158, 30, 109);
+    background-color: rgb(102, 47, 47);
     transition: 0.7s;
     cursor: pointer;
 }
@@ -66,7 +66,7 @@ div {
     height: 100px;
     text-align: center;
     transition: 0.6s;
-    color: rgb(68, 32, 55);
+    color: rgb(141, 42, 42);
     font-weight: bold;
     font-family: Calibri;
     font-size: 34;
@@ -74,13 +74,13 @@ div {
 }
 
 .table td:hover {
-    background-color: rgb(117, 101, 35);
+    background-color: rgb(168, 97, 91);
 }
 
 
 
 .table td .opened {
-    background-color: rgb(110, 0, 6);
+    background-color: rgb(22, 8, 8);
     color: rgb(214, 125, 130)
 }
 
